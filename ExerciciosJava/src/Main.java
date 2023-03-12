@@ -11,6 +11,7 @@ public class Main {
 		int b = sc.nextInt();
 		int c = a+b;
 		System.out.print("O resultado é "+c);
+		sc.close();
 	}
 
 }

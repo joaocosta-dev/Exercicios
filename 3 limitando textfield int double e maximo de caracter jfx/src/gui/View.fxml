@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="500.0" prefWidth="400.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="gui.ViewController">
+   <children>
+      <Label layoutX="118.0" layoutY="27.0" text="Calcule a soma ">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <TextField fx:id="tfN1" layoutX="126.0" layoutY="83.0" promptText="primeiro numero" />
+      <TextField fx:id="tfN2" layoutX="126.0" layoutY="131.0" promptText="segundo numero" />
+      <Button fx:id="btSoma" layoutX="158.0" layoutY="188.0" mnemonicParsing="false" onAction="#onBtSomaAction" text="Somar">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Button>
+      <Label layoutX="35.0" layoutY="258.0" text="Resultado: ">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label fx:id="lbResultado" layoutX="146.0" layoutY="258.0" prefHeight="30.0" prefWidth="98.0">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
