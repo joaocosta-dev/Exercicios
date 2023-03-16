@@ -30,7 +30,6 @@ public class Fibonacci
 			fibo=anterior+atual;
 			anterior=atual;
 			atual=fibo;
-
 		}
 		return mensagem;
 	}
